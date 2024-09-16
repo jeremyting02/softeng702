@@ -391,6 +391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destroyed_hotel_ukraine
       objectReference: {fileID: 0}
+    - target: {fileID: -5609321221556402741, guid: 0c992dede197823418c750f0a4c11788, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5146681718063874739, guid: 0c992dede197823418c750f0a4c11788, type: 3}
       propertyPath: m_LocalScale.x
       value: 50
