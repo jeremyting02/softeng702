@@ -1,12 +1,12 @@
 using UnityEngine;
-using UnityEngine.InputSystem; // Make sure to include this
+using UnityEngine.InputSystem;
 
 public class CameraManager : MonoBehaviour
 {
-    public Camera pcCamera; // Assign the PC Camera in the Inspector
-    public GameObject xrRig; // Assign the XR Rig in the Inspector
+    public Camera pcCamera; 
+    public GameObject xrRig; 
 
-    private bool isInVR = true; // Start in VR mode
+    private bool isInVR = true; 
 
     void Start()
     {
@@ -15,8 +15,7 @@ public class CameraManager : MonoBehaviour
 
     void Update()
     {
-        // Check for 'V' key press to toggle
-        if (Keyboard.current.vKey.wasPressedThisFrame) // Change to 'V' key
+        if (Keyboard.current.vKey.wasPressedThisFrame) 
         {
             ToggleCamera();
         }
@@ -24,7 +23,7 @@ public class CameraManager : MonoBehaviour
 
     private void ToggleCamera()
     {
-        isInVR = !isInVR; // Toggle the state
+        isInVR = !isInVR;
         UpdateCameraState();
     }
 
