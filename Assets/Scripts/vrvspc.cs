@@ -6,7 +6,7 @@ public class CameraManager : MonoBehaviour
     public Camera pcCamera; 
     public GameObject xrRig; 
 
-    private bool isInVR = true; 
+    private bool isInVR = false; 
 
     void Start()
     {
