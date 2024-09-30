@@ -40,4 +40,7 @@ git clone https://github.com/jeremyting02/softeng702.git
 
 ### Program Run
 
-1. To run the VR environment, click the play button located on the top middle position of the window.
+1. To run the scenario, click the play button located on the top middle position of the window.
+
+To run on pc click v key on the keyboard
+To run in VR connect VR to pc using usbc chord
