@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class MoveHelicopter : MonoBehaviour
 {
-    public float straightDistance = 10f; 
-    public float straightAfterTurnDistance = 10f; 
-    public float leftTurnDuration = 2f; 
-    public float speed = 2f; 
-    public float bankAngle = 10f; 
+    public float straightDistance = 10f;
+    public float straightAfterTurnDistance = 10f;
+    public float leftTurnDuration = 2f;
+    public float speed = 1f;
+    public float bankAngle = 10f;
 
-    private float distanceTraveled = 0f; 
-    private float turnTime = 0f; 
-    private Quaternion startRotation; 
-    private Quaternion endRotation; 
-    private bool isTurning = false; 
+    private float distanceTraveled = 0f;
+    private float turnTime = 0f;
+    private Quaternion startRotation;
+    private Quaternion endRotation;
+    private bool isTurning = false;
 
     void Start()
     {
@@ -39,7 +39,7 @@ public class MoveHelicopter : MonoBehaviour
             else
             {
                 isTurning = true;
-                distanceTraveled = 0f; 
+                distanceTraveled = 0f;
             }
         }
     }
@@ -55,8 +55,8 @@ public class MoveHelicopter : MonoBehaviour
         if (distanceTraveled >= distanceToMove)
         {
 
-            distanceTraveled = 0f; 
-            isTurning = true; 
+            distanceTraveled = 0f;
+            isTurning = true;
         }
     }
 
@@ -68,7 +68,7 @@ public class MoveHelicopter : MonoBehaviour
         float t = turnTime / leftTurnDuration;
         transform.rotation = Quaternion.Slerp(startRotation, endRotation, t);
 
-        float bank = Mathf.Sin(t * Mathf.PI) * bankAngle; 
+        float bank = Mathf.Sin(t * Mathf.PI) * bankAngle;
         transform.rotation = transform.rotation * Quaternion.Euler(0, 0, bank);
 
         float moveStep = speed * Time.deltaTime;
@@ -77,13 +77,13 @@ public class MoveHelicopter : MonoBehaviour
 
         if (turnTime >= leftTurnDuration)
         {
-            turnTime = 0f; 
+            turnTime = 0f;
             startRotation = transform.rotation;
-            endRotation = Quaternion.Euler(0, transform.eulerAngles.y - 90f, 0); 
-            isTurning = false; 
+            endRotation = Quaternion.Euler(0, transform.eulerAngles.y - 90f, 0);
+            isTurning = false;
 
-            distanceTraveled = 0f; 
-            straightDistance = straightAfterTurnDistance; 
+            distanceTraveled = 0f;
+            straightDistance = straightAfterTurnDistance;
         }
     }
 }

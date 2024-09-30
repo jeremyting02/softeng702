@@ -8,6 +8,7 @@ public class moveforwards : MonoBehaviour
 
     void Update()
     {
+        // for the ambulance
         transform.Translate(-Vector3.forward * speed * Time.deltaTime, Space.World);
     }
 }

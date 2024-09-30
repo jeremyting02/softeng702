@@ -3,10 +3,10 @@ using UnityEngine.InputSystem;
 
 public class CameraManager : MonoBehaviour
 {
-    public Camera pcCamera; 
-    public GameObject xrRig; 
+    public Camera pcCamera;
+    public GameObject xrRig;
 
-    private bool isInVR = false; 
+    private bool isInVR = true;
 
     void Start()
     {
@@ -15,7 +15,7 @@ public class CameraManager : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current.vKey.wasPressedThisFrame) 
+        if (Keyboard.current.vKey.wasPressedThisFrame)
         {
             ToggleCamera();
         }
