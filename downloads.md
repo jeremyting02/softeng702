@@ -1,0 +1,21 @@
+# List of Asset Links to Download
+
+- https://assetstore.unity.com/packages/2d/textures-materials/blood-splatter-decal-package-7518
+- https://assetstore.unity.com/packages/3d/characters/survivalist-character-181470
+- https://assetstore.unity.com/packages/3d/environments/urban/russian-buildings-pack-113375
+- https://assetstore.unity.com/packages/3d/environments/urban/low-poly-street-pack-67475
+- https://sketchfab.com/3d-models/destroyed-hotel-ukraine-8dbd85609e6e42a2829690ceb941e66e
+- https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633
+- https://github.com/RoadwayVR/UnityStandardAssets
+- https://sketchfab.com/3d-models/md-500-defender-helicopter-da5daae0fe354269895b58c2ed72e2b8
+- https://sketchfab.com/3d-models/lynx-helicopter-9028fe1f38a74a789a023300e034efd3
+- https://assetstore.unity.com/packages/vfx/particles/war-fx-5669
+- Create a `Cars` directory within `Assets/LargeAssets` and include the following downloaded assets:
+  - https://sketchfab.com/3d-models/ambulance-b78313c16c9d46a7a67643245cf278d2
+  - https://sketchfab.com/3d-models/old-rusty-car-2020-17k-followers-e024443136a14f2fbc00e517295ceac6
+  - https://sketchfab.com/3d-models/broken-car-1e19aa6886e24cc18955311bf9ff223f
+  - https://sketchfab.com/3d-models/free-burned-police-cars-ad16f7085cb047b494997cf9efed5059
+  - https://sketchfab.com/3d-models/broken-car-43c490a1b3ed4ddab1a26b37383cf3ef
+  - https://sketchfab.com/3d-models/black-car-wreck-439ed74e05024e8995773d92e2607cac
+  - https://sketchfab.com/3d-models/wreck-car-3b80bb632cbc460eaeda659de021625b
+  - https://sketchfab.com/3d-models/ruined-cars-small-freebie-632d4eb3ebbd4796b1353e5691c92edd
