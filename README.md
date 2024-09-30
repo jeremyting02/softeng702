@@ -30,7 +30,7 @@ git clone https://github.com/jeremyting02/softeng702.git
 
 ![alt text](readme_images/{3C86D0E5-AF6C-4073-A306-A119B0106A8B}.png)
 
-2. Download all assets from the website links listed in this [file](https://github.com/jeremyting02/softeng702/blob/main/downloads.md).
+2. Download all assets from [this Google Drive folder](https://drive.google.com/drive/folders/17IfZPfabtWm6l2QBP7bU9RIu1nxLhhtB?usp=drive_link). Alternatively, download all the assets from the website links listed in this [file](https://github.com/jeremyting02/softeng702/blob/main/downloads.md).
 
 3. Place all downloaded asset folders inside the `Assets/LargeAssets` directory.
 
