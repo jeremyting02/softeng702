@@ -40,4 +40,14 @@ git clone https://github.com/jeremyting02/softeng702.git
 
 ### Program Run
 
-1. To run the VR environment, click the play button located on the top middle position of the window.
+To run the VR environment:
+
+1. Connect an Oculus VR headset to the PC through Quest Link.
+
+2. Click the play button located on the top middle position of the Unity Editor window.
+
+To run the PC environment:
+
+1. Click the play button located on the top middle position of the Unity Editor window.
+
+2. Press the `V` Key on the keyboard to be able to look around.
