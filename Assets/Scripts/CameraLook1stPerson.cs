@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class CameraLook1stPerson : MonoBehaviour
 {
-    public Transform playerRef;  
+    public Transform playerRef;
     public float mouseSensitivity = 0.05f;
     private float xRotation = 0f;
 
@@ -18,8 +18,8 @@ public class CameraLook1stPerson : MonoBehaviour
         if (Mouse.current != null)
         {
             Vector2 mouseInput = Mouse.current.delta.ReadValue();
-            float mouseX = mouseInput.x * mouseSensitivity * 0.25f; 
-            float mouseY = mouseInput.y * mouseSensitivity * 0.25f;
+            float mouseX = mouseInput.x * mouseSensitivity * 0.025f;
+            float mouseY = mouseInput.y * mouseSensitivity * 0.025f;
 
 
             xRotation -= mouseY;
