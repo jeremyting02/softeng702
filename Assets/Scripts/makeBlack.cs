@@ -1,12 +1,12 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
 public class MakeBlack : MonoBehaviour
 {
-    public RawImage blackScreenImage; 
-    public float fadeDuration = 2f; 
-    public float delay = 45f; 
+    public RawImage blackScreenImage;
+    public float fadeDuration = 2f;
+    public float delay = 45f;
 
     void Start()
     {
@@ -21,8 +21,8 @@ public class MakeBlack : MonoBehaviour
 
 
         float elapsedTime = 0f;
-        Color startColor = blackScreenImage.color; 
-        Color targetColor = new Color(0, 0, 0, 1); 
+        Color startColor = blackScreenImage.color;
+        Color targetColor = new Color(0, 0, 0, 1);
 
         while (elapsedTime < fadeDuration)
         {
@@ -34,7 +34,7 @@ public class MakeBlack : MonoBehaviour
 
 
             elapsedTime += Time.deltaTime;
-            yield return null; 
+            yield return null;
         }
 
 
